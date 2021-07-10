@@ -1,0 +1,424 @@
+/* import fonts */
+@import url('./fonts.css');
+
+/* import global css */
+@import url('./partials/_global.css');
+
+
+/* import variable css */
+@import url('./partials/_variable.css');
+
+
+/* navbar */
+
+
+
+/* header area */
+
+.header-area .main-menu .my-logo{
+    width: 100px;
+    height: 30px;
+    
+}
+
+
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 0 0 0 0rem;
+}
+
+.header-area .main-menu .navbar{
+    padding: .5rem 10rem;
+}
+
+.header-area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    
+    text-transform: uppercase;
+    
+    font-size: 14px;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header-area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* banner */
+
+.site-main .site-banner .banner-image .banner-img{
+    height: 450px;
+    width: auto;
+    margin-top: 15%;
+    padding-top: 15%;
+    margin-left: 20%;
+   background: url("../img/7a734bfde011875d0284dfbcb787ce4d-removebg-preview.png") no-repeat 30%;
+   background-size: cover;
+    
+}
+.site-title{
+    margin-top: 5%;
+    
+}
+
+.site-main .site-banner .site-title h3,h1,h4, .buttons{
+    margin-left: 30%;
+    
+
+}
+
+.site-main .site-banner{
+    background: url(../img/home-banner.png) no-repeat;
+    background-size: cover;
+    
+}
+
+
+.site-main .site-banner .site-title h3{
+    padding-top: 25%;
+    font-weight: 500;
+    
+    
+}
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+
+}
+
+/* about section */
+.about-image img{
+    background: url("../img/7a734bfde011875d0284dfbcb787ce4d-removebg-preview.png") no-repeat 100%;
+    background-size: cover;
+}
+
+.about-area{
+    margin-top: 5%;
+    padding: 8rem 5rem;
+}
+
+.about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 20px;
+}
+.about-area .about-title .paragraph >p{
+    padding: .4rem 0;
+}
+
+/*-----------------------------------------------------
+# Services
+-----------------------------------------------------*/
+#what-we-do{
+        margin-top: 2%;
+        padding: 8rem 5rem;
+}
+#what-we-do .section-title{
+	text-align:center;
+	color:#5148d1;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+	background:#ffffff;
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #5148d1 !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #5148d1;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+  
+
+/* Project Area */ 
+
+.project-area{
+    
+        padding: 8rem 5rem;
+}
+
+
+/* .container{
+	width:90%
+	margin:10px auto;
+} */
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item{
+	/*width:100%;*/
+}
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+
+
+/* feedback */
+.feedback-area{
+    
+    margin-top: 20%;
+    
+    
+    
+}
+.feedback-area h3{
+    font: normal bold 49px/60px var(--roboto);
+    color: #5148d1;
+}
+
+
+
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+    color: black;
+    
+
+}
+
+.feedback-img{
+    width: 180px;
+    height: auto;
+}
+
+carousel-indicators{
+    bottom: -20px;
+    color: black;
+}
+
+.carousel-indicators .active {
+    background-color: #7e3bbb;
+}
+
+/* feedback end */
+
+/* contact */
+.contact-section h1{
+    font: normal bold 49px/60px var(--roboto);
+    color: #5148d1;
+}
+
+.contact-section .content p{
+    padding: 1%;
+}
+.contact-section .content p{
+    text-align: center;
+}
+.contact-section .content .row{
+
+    padding-left: 20%;
+}
+ .contact-section .content .row i{
+     margin-top: 10px;
+     height: 40px;
+     width: 40px;
+ }
+
+.contact-section{
+    margin-top: 20%;
+    padding: 15px;
+}
+.contact-section input, textarea{
+    padding: auto;
+}
+
+/* footer */
+
+footer{
+    margin-top: 15%;
+}
+
+/* responsive for mobile */
+@media only screen and (max-width: 350px){
+
+    .header-area, .site-banner, #about, #what-we-do, #project-area, #feedback, #contact, footer{
+        width: 300px;
+    }
+
+     .button2{
+        width: 300px;
+        
+    }
+    .button1{
+        width: 350px;
+        margin-bottom: 20px;
+
+    }
+    .banner-image{
+        padding-left: 20px;
+    }
+
+    #about .paragraph .para{
+        width: 300px;
+    }
+
+    #what-we-do h2{
+        width: 300px;
+    }
+    #what-we-do .card{
+        width: 350px;
+    }
+    #project-area .portfolio-menu ul li{
+        width: 300px;
+        margin-left: -10px;
+    }
+    #project-area .portfolio-item{
+        width: 350px;
+        margin-left: 6px;
+    }
+
+    #feedback .section-title h3{
+        width: 300px;
+        margin: 110px;
+    }
+    #feedback #carouselExampleIndicators .carousel-inner{
+        width: 300px;
+        margin-left: 100px;
+    }
+
+    #feedback #carouselExampleIndicators .carousel-control-prev{
+        margin-left: 90px;
+    }
+    #feedback #carouselExampleIndicators .carousel-control-next{
+        margin-right: -100px;
+    }
+    #feedback #carouselExampleIndicators .carousel-indicators{
+        margin-right: -180px;
+    }
+
+    #contact h1{
+        width: 300px;
+        margin-left: 100px;
+    }
+
+    #contact .container{
+        width: 300px;
+    }
+
+    #contact .container .content{
+        width: 300px;
+        margin-left: 80px;
+    }
+    #contact .container .form{
+        width: 390px;
+        
+    }
+    #contact .container .form .form-group{
+        margin-right: -80px;
+    }
+
+    footer .div{
+        width: 550px;
+    }
+
+    footer .container{
+        width: 400px;
+        margin-left: 80px;
+    }
+
+    footer .footer-copyright{
+        width: 400px;
+        margin-left: 100px;
+    }
+}
+
+    
+    
+
+
